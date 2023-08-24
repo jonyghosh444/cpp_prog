@@ -24,16 +24,18 @@ using namespace std;
 class binary
 {
     string s;
+    void chk_bin(void);
 
 public:
     void read(void);
-    void chk_bin(void);
+    
     void ones_compliment(void);
     void display(void);
 };
 
 void binary::ones_compliment(void)
-{
+{   
+    chk_bin();
     for (int i = 0; i < s.length(); i++)
     {
         if (s.at(i) == '0')
@@ -80,7 +82,7 @@ int main()
 
     binary b;
     b.read();
-    b.chk_bin();
+    // b.chk_bin();
     b.display();
     b.ones_compliment();
     b.display();
