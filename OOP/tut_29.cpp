@@ -21,7 +21,7 @@ public:
 
 Complex ::Complex(void) //This is a default constructor as it kaes no param
 {
-    a = 10;
+    a = 0;
     b = 0;
     cout<<"Hello world."<<endl;
 }
