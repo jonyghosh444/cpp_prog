@@ -1,5 +1,5 @@
-Complex ::Complex(void)
-// {
-//     a = 10;
-//     b = 0;
-// }
+
+        // Number(Number &obj){
+        //     cout<<"Copy constructor called"<<endl;
+        //     a = obj.a;
+        // }
